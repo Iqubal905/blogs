@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-slider .image-layer {
+    @apply bg-no-repeat bg-cover bg-center transition-transform duration-[5000ms] ease-in-out min-h-[500px];
+  }
+  
+  .main-slider .swiper-slide-active .image-layer {
+    @apply scale-150 z-10;
+  }
+  
+  .main-slider .image-layer::before {
+    @apply absolute top-0 left-0 bottom-0 right-0 content-[''] bg-[#1c0c0664] dark:bg-[#1c0c0690] z-0;
+  }
+  
+  .main-slider .swiper-button-next,
+  .main-slider .swiper-button-prev {
+    @apply absolute bg-white text-black w-12 h-12 rounded-full hidden sm:flex items-center justify-center;
+  }
+  
+  [data-theme="dark"] .main-slider .swiper-button-next,
+  [data-theme="dark"] .main-slider .swiper-button-prev {
+    @apply bg-[#2a303c] text-[#e2e2e2];
+  }
+  

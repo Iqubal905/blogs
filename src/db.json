@@ -1,0 +1,179 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The Art of Cooking",
+      "author": "Jane Doe",
+      "content": "In this blog post, we explore the culinary world and discuss the importance of fresh ingredients in creating delicious meals.",
+      "tags": [
+        "cooking",
+        "food",
+        "recipes"
+      ],
+      "date": "2024-01-01",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/11/hocfqhhgjde-728x485.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Tech Trends 2024",
+      "author": "John Smith",
+      "content": "Discover the latest technological trends and innovations shaping the year 2024. From AI to blockchain, we cover it all.",
+      "tags": [
+        "technology",
+        "innovation",
+        "AI",
+        "blockchain"
+      ],
+      "date": "2024-01-02",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/fv3gconvsss-570x392.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Travel Diaries: Exploring the Amazon Rainforest",
+      "author": "Alex Johnson",
+      "content": "Embark on a virtual journey through the Amazon rainforest as we recount the adventures and breathtaking scenery.",
+      "tags": [
+        "travel",
+        "adventure",
+        "nature"
+      ],
+      "date": "2024-01-03",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/j1rns2qv8bq-570x392.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Fitness for Beginners",
+      "author": "Emily Brown",
+      "content": "Start your fitness journey with these beginner-friendly exercises and tips. Stay motivated and achieve your health goals.",
+      "tags": [
+        "fitness",
+        "exercise",
+        "health"
+      ],
+      "date": "2024-01-04",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/Stocksy_txpc8ef2776zeS100_Medium_10698111-570x392.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Book Review: The Alchemist",
+      "author": "David Wilson",
+      "content": "A detailed review of Paulo Coelho's timeless classic, 'The Alchemist.' Explore the philosophical themes and lessons within.",
+      "tags": [
+        "books",
+        "literature",
+        "review"
+      ],
+      "date": "2024-01-05",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/j1rns2qv8bq-570x392.jpg"
+    },
+    {
+      "id": 6,
+      "title": "DIY Home Decor Ideas",
+      "author": "Sophie Taylor",
+      "content": "Spruce up your living space with these easy and affordable DIY home decor ideas. Transform your home into a stylish haven.",
+      "tags": [
+        "DIY",
+        "home decor",
+        "crafts"
+      ],
+      "date": "2024-01-06",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/vwcplbhglyc-570x392.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Understanding Climate Change",
+      "author": "Michael Carter",
+      "content": "Delve into the science and impact of climate change. Learn about sustainable practices and how individuals can make a difference.",
+      "tags": [
+        "climate change",
+        "environment",
+        "sustainability"
+      ],
+      "date": "2024-01-07",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/vwcplbhglyc-570x392.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Movie Review: Inception",
+      "author": "Grace Anderson",
+      "content": "Analyzing Christopher Nolan's mind-bending masterpiece, 'Inception.' Explore the layers of dreams and reality in this cinematic journey.",
+      "tags": [
+        "movies",
+        "reviews",
+        "Inception"
+      ],
+      "date": "2024-01-08",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/Stocksy_txpc8ef2776zeS100_Medium_10698111-570x392.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Career Development Tips",
+      "author": "Ryan Miller",
+      "content": "Navigate your career path with these practical tips for professional growth. From networking to skill development, we've got you covered.",
+      "tags": [
+        "career",
+        "professional development",
+        "tips"
+      ],
+      "date": "2024-01-09",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/fv3gconvsss-570x392.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Gardening for Beginners",
+      "author": "Eva Green",
+      "content": "Discover the joys of gardening with simple tips for beginners. From choosing the right plants to basic care, start your green journey.",
+      "tags": [
+        "gardening",
+        "plants",
+        "green living"
+      ],
+      "date": "2024-01-10",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/07/fv3gconvsss-570x392.jpg"
+    },
+    {
+      "title": "jj",
+      "author": "ylgl",
+      "content": "yugfuyg",
+      "tags": "df, df, ert, rfgr",
+      "date": "2024-01-25",
+      "img": "https://media.istockphoto.com/id/1319189303/photo/shot-of-two-men-working-on-their-computers-in-a-modern-office.webp?b=1&s=170667a&w=0&k=20&c=8mBRp5-OEw5WafxiI4wMigAGyYYr00rcsW-qV4Kwhsw=",
+      "id": 11
+    },
+    {
+      "title": "jj",
+      "author": "ylgl",
+      "content": "yugfuyg",
+      "tags": "df, df, ert, rfgr",
+      "date": "2024-01-25",
+      "img": "https://media.istockphoto.com/id/1319189303/photo/shot-of-two-men-working-on-their-computers-in-a-modern-office.webp?b=1&s=170667a&w=0&k=20&c=8mBRp5-OEw5WafxiI4wMigAGyYYr00rcsW-qV4Kwhsw=",
+      "id": 12
+    },
+    {
+      "title": "The Art of Cooking",
+      "author": "Jane Doe",
+      "content": "In this ts in creating delicious meals.",
+      "tags": [
+        "cooking",
+        "food",
+        "recipes"
+      ],
+      "date": "2024-01-01",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/11/hocfqhhgjde-728x485.jpg",
+      "id": 13
+    },
+    {
+      "title": "The Art of Cooking",
+      "author": "Jane Doe",
+      "content": "In this ts in creating delicious meals.",
+      "tags": [
+        "cooking",
+        "food",
+        "recipes"
+      ],
+      "date": "2024-01-01",
+      "img": "https://themebubble.com/demo/webify/insurance/wp-content/uploads/sites/59/2019/11/hocfqhhgjde-728x485.jpg",
+      "id": 14
+    }
+  ]
+}
