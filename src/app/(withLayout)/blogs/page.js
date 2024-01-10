@@ -13,7 +13,7 @@ const BlogPage = async() => {
     const dataFromDb = await getCategories()
 
     const blogsData = await getAllBlogs()
-   const firstBlog =  blogsData.find((blog, index)=> index === 0)  
+   const firstBlog =  dataFromDb.find((blog, index)=> index === 0)  
    
     return (
         <div>
