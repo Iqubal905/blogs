@@ -9,11 +9,11 @@ const navlink = [
       title:'Dashboard'
   },
   {
-      path: '/dashboard/addBlog', 
+      path: '/dashboard/addblog', 
       title:'Add blog'
   },
   {
-      path: '/dashboard/manageBlog', 
+      path: '/dashboard/manageblog', 
       title:'Manage blog'
   },
   {

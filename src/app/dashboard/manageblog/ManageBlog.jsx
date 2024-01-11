@@ -17,7 +17,7 @@ const ManageBlog = ({blogs}) => {
            setLoading(true)
         try  {
           const res = await fetch(
-           `http://localhost:3000/api/blogs/${id}`,{
+           `/api/blogs/${id}`,{
              method: "DELETE",
           })
           const result = await res.json()
@@ -33,6 +33,8 @@ const ManageBlog = ({blogs}) => {
          }
         
         }
+
+   
 
 
 

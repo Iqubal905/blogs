@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const ManageSingleBlog = ({blog, handleDelete}) => {
+const ManageSingleBlog = ({blog, handleDelete, }) => {
     const {_id, title, date, img,author }= blog
 
     return (
@@ -15,10 +15,10 @@ const ManageSingleBlog = ({blog, handleDelete}) => {
         <td className='border border-y-amber-200'>{title}</td>
         <td className='border border-y-amber-200'>{author}</td>
         <td className='border border-y-amber-200'>
-            <button   onClick={()=>handleDelete(_id)} className='   btn  border-pink-500  text-red-400'>Delete</button>
+            <button  onClick={()=>handleDelete(_id)} className='   btn  border-pink-500  text-red-400'>Delete</button>
         </td>
         <td className='border border-y-amber-200'>
-            <button  className='btn btn-info text-white'> <Link href={`/dashboard/manageBlog/${_id}`}>Edit Blog</Link></button>
+            <button  className='btn btn-info text-white'> <Link href={`/dashboard/manageblog/${_id}`}>Edit Blog</Link></button>
         </td>
              </tr>
     );

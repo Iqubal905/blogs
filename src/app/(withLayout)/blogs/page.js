@@ -1,18 +1,19 @@
 
-import getAllBlogs from '@/utilis/getAllBlogs';
+// import getAllBlogs from '@/utilis/getAllBlogs';
 import wait from '@/utilis/wait';
 import React from 'react';
 
 import SingleBlog from './SingleBlog';
 import Link from 'next/link';
 import getCategories from '@/utilis/getCategories';
+import { getCategoriesFromDb } from '@/servicess/blogs.servicess';
 
 const BlogPage = async() => {
 
     await wait()
-    const dataFromDb = await getCategories()
-
-    const blogsData = await getAllBlogs()
+    const dataFromDb = await getCategoriesFromDb()
+    
+    // const blogsData = await getAllBlogs()
    const firstBlog =  dataFromDb.find((blog, index)=> index === 0)  
    
     return (

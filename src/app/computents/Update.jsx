@@ -27,7 +27,7 @@ const Update = ({updateData}) => {
          try  {
             setLoading(true)
             const res = await fetch(
-             `http://localhost:3000/api/blogs/${_id}`,{
+             `/api/blogs/${_id}`,{
                method: "PATCH",
          headers:{
            "content-type": "application/json"
@@ -43,7 +43,7 @@ const Update = ({updateData}) => {
                 router.refresh()
             })
 
-            router.push('/dashboard/manageBlog')
+            router.push('/dashboard/manageblog')
            }catch(error){
              console.log(error);
            }
