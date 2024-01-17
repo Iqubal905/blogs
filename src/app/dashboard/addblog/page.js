@@ -23,7 +23,7 @@ const AddBlog = () => {
     // Handle form submission logic here
    
 
-const res = await fetch('http://localhost:3000/api/blogs',{
+const res = await fetch('/api/blogs',{
   method: "POST",
   headers: {
     "content-type": "application/json"
