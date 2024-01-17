@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import React from 'react';
 
-const ManageSingleBlog = ({blog, handleDelete, }) => {
-    const {_id, title, date, img,author }= blog
+const ManageSingleBlog = ({blog, handleDelete }) => {
+    const {_id, title, date, img, author }= blog
 
     return (
         <tr className='text-center '>
