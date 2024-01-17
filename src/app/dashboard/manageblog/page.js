@@ -1,13 +1,13 @@
-import getAllBlogs from '@/utilis/getAllBlogs';
+
 import React from 'react';
 import ManageBlog from './ManageBlog';
-//import  getCategoriesFromDb  from '@/servicess/blogs.servicess';
-import getCategories from '@/utilis/getCategories';
+import  {getCategoriesFromDb}  from '@/servicess/blogs.servicess';
+
 
 const ManageBlogPage =async () => {
-const text = await getAllBlogs()
 
-    const blogs = await getCategories()
+
+    const blogs = await getCategoriesFromDb()
     const plainObject = JSON.parse(JSON.stringify(blogs));
 
     return (
